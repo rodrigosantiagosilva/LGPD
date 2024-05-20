@@ -1,0 +1,44 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(106, 255, 205);
+  color: rgb(98, 98, 250);
+}
+body header {
+  display: flex;
+  flex-direction: column;
+}
+body header #searchbar {
+  padding: 15px;
+  border-radius: 10px;
+}
+body header input[type=text] {
+  width: 40%;
+  transition: width 0.15s ease-in-out;
+}
+body .titulo {
+  text-align: center;
+}
+body .informa {
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 0;
+  text-align: justify;
+}
+body .pesquisa {
+  display: flex;
+  justify-content: center;
+}
+body .lista {
+  display: flex;
+  justify-content: center;
+}
+body .lista ol {
+  list-style: upper-roman;
+}
+body .centro {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+body .negrito {
+  color: rgb(10, 118, 168);
+}/*# sourceMappingURL=styles.css.map */
